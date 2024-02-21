@@ -21,6 +21,14 @@ This document serves as the documentation for the weather application developed 
   - Utilizes the feature-first approach for development.
   - Utilizes Provider for State Management throughout the appliaction.
 
+
+## Installation and Setup
+To run the weather application, follow these steps:
+1. Clone the `rannlab_assignment` project from the GitHub repository.
+2. Open the project in your preferred Flutter development environment (e.g., Android Studio, VS Code).
+3. Ensure Flutter SDK is properly configured.
+4. Run the project on an emulator or physical device.
+
 ## Usage
 Upon launching the application, users are presented with a simple interface where they can input a location or pincode of the location. After entering a valid location and tapping the search button, the application fetches real-time weather data from the WeatherBit API. The retrieved data is then parsed and displayed on the UI, showing the current temperature, humidity, and weather description. In case of any errors during the process, appropriate error messages are displayed to the user.
 
